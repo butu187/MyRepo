@@ -8,7 +8,5 @@ public class Demo {
 	public static void login(){
 		System.out.println("login block");
 	}
-	public static void logout(){
-		System.out.println("logout block");
-	}
+	
 }
