@@ -5,4 +5,7 @@ public class Demo {
 		System.out.println("Maa");
 		System.out.println("nnnnnnnn");
 	}
+	public void login(){
+		System.out.println("login block");
+	}
 }
