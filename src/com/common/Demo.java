@@ -1,9 +1,13 @@
 package com.common;
 
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
 public class Demo {
-	public static void main(String[] args) {
-		System.out.println("Maa");
-		System.out.println("nnnnnnnn");
+	@Test
+	public void main() {
+		Reporter.log("Maa",true);
+
 	}
 	public static void login(){
 		System.out.println("login block");
